@@ -1,3 +1,4 @@
+
 <?php
     session_start();
     if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
@@ -38,7 +39,9 @@
                 else if (isset($success)){echo "<span style='color:green'>User exists!</span>";} ?>
                 <br><br>
                 <?php include('includes/login_footer.php'); ?>
+<h3>testing purpose</h3>
             </form>
         </div>
     </body>
 </html>
+
